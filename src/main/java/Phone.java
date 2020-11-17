@@ -4,13 +4,20 @@ public class Phone {
     public int weight;
     public String model;
 
-    public static void receiveCall (String callerName) {
-        System.out.println("Звонит " + callerName);
+
+    public void sendMessages (String... numbers) {
+        for (String number : numbers) {
+            System.out.println(number);
+        }
     }
 
-    public static void receiveCall (String callerName, String callerNumber) {
-        System.out.println ("Звонит " + callerName + "\n" + "Номер: " + callerNumber);
-    }
+//    public static void receiveCall (String callerName) {
+//        System.out.println("Звонит " + callerName);
+//    }
+//
+//    public static void receiveCall (String callerName, String callerNumber) {
+//        System.out.println ("Звонит " + callerName + "\n" + "Номер: " + callerNumber);
+//    }
 
 //    public static void getNumber (String callerNumber) {
 //        System.out.println(callerNumber);
