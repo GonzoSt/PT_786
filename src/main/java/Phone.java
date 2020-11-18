@@ -1,15 +1,15 @@
 public class Phone {
 
-    public String number;
-    public int weight;
-    public String model;
-
-
-    public void sendMessages (String... numbers) {
-        for (String number : numbers) {
-            System.out.println(number);
-        }
-    }
+//    public String number;
+//    public int weight;
+//    public String model;
+//
+//
+//    public void sendMessages (String... numbers) {
+//        for (String number : numbers) {
+//            System.out.println(number);
+//        }
+//    }
 
 //    public static void receiveCall (String callerName) {
 //        System.out.println("Звонит " + callerName);
