@@ -1,6 +1,6 @@
 public class Phone {
 
-    int number;
-    int weight;
-    String model;
+    public String number;
+    public int weight;
+    public String model;
 }
