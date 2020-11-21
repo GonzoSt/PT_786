@@ -44,7 +44,6 @@ public class Main {
         Person.getNumber();
         System.out.println("\n");
 
-        SmartPhone SmartPhone = new SmartPhone();
         SmartPhone.receiveCall("callerName");
         SmartPhone.getNumber("callerNumber");
         SmartPhone.sendMessages("num1", "num2", "num3");
